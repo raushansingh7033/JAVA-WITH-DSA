@@ -17,7 +17,7 @@ class LL {
     }
   }
 
-  // 2. implementing the add first method in linkedlist
+  // 2. implementing the add first method in linked-list
   void addFirst(int data) {
     // step : 1 creating new node by given data
     Node newNode = new Node(data);
@@ -26,7 +26,7 @@ class LL {
       head = newNode;
       return;
     }
-    // step : 3 if head is not null then assign the newnode next to the head
+    // step : 3 if head is not null then assign the newNode next to the head
     newNode.next = head;
     // step 4: assign the head to the newNode
     head = newNode;
@@ -80,7 +80,7 @@ class LL {
     temp1.next = null;
   }
 
-  // 1. printing linkedlist
+  // 1. printing linked-list
   void printList() {
     // check the head is null
     if (head == null) {
