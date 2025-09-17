@@ -1,9 +1,0 @@
-add()
-
-remove()
-
-peek()
-
-
-Implementation
-Array  Linkedlist  stack

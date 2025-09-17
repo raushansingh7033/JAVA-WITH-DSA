@@ -13,5 +13,4 @@ public class _04_Input {
       System.out.println(arr[idx]);
     }
   }
-
 }
