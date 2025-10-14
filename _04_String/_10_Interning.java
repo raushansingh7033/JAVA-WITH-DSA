@@ -6,6 +6,7 @@ public class _10_Interning {
     // s.charAt(0)="M"; not possible
     s = "Rohan"; // assigning not changing the real value
     System.out.println(s);
-//we can not change individual characters 
+    // we can not change individual characters
+    
   }
 }
