@@ -15,6 +15,7 @@ public class _04_QuickSort {
 
   public static int partition(int arr[], int lo, int hi) {
     int pivot = arr[lo];
+    
     int pivotIdx = lo;
     int smallerCount = 0;
     for (int i = lo + 1; i <= hi; i++) {
