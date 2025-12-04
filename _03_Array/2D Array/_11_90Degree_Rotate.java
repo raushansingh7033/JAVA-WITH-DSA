@@ -28,7 +28,6 @@ public class _11_90Degree_Rotate {
       int a = 0;
       int b = m - 1;
       while (a < b) {
-
         int temp = arr[i][a];
         arr[i][a] = arr[i][b];
         arr[i][b] = temp;
