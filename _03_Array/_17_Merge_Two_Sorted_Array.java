@@ -23,7 +23,7 @@ public class _17_Merge_Two_Sorted_Array {
       // now take element from b only
       while (j < b.length) {
         c[k] = b[j];
-        k++;
+        i++;
         j++;
       }
     }
