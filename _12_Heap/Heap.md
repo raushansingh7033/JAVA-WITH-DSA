@@ -18,6 +18,66 @@ A PriorityQueue in Java is a queue where elements are ordered based on their pri
 - Automatically grows as elements are added.
 - Uses a heap data structure internally to ensure efficient insertion and removal of the highest-priority element.
 
+# Operation By Implementing Heap
+```
+class minHeap{
+    int[] arr;
+    int size;
+    minHeap(int capacity ){
+        arr=new int[capacity]
+        size=0;
+    }
+    public void add(int num){
+        if(size==arr.length)throw new Exception("Heap is full")
+        arr[size++]=num;
+        upHeapify(size-1)
+    }
+    void upHeapify(int idx){
+        int parent=(c-1)/2;
+        if(arr[idx]<arr[parent]){
+            swap(idx,parent);
+            upHeafiy(parent);
+        }
+    }
+    public void swap(int i,int j){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+    }
+    
+    public int peek(){
+        if(size==0){
+            System.out.println("Heap is empty")
+        }
+        return arr[0];
+    }
+
+    public int remove(){
+        if(size==0)throw new Exception("Heap is Empty");
+        int peek=arr[0];
+        swap(0,size-1);
+        size--;
+        downHeapify(0);
+        return peek;
+    }
+    public void downHeapify(int idx){
+        if(i>size)return;
+        int lc=2*i+1,rc=2*i-1;
+        int minIdx=i;
+        if(lc<size && arr[lc]<arr[minIdx])minIdx=lc;
+        if(rc<size && arr[rc]<arr[minIdx])minIdx=rc;
+        swap(i,minIdx);
+        downHeapify(minIdx);
+    }
+    public void size(){
+        return size;
+    }
+}
+
+
+```
+
+
 
 # Operation using STL
 
