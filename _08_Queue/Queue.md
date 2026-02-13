@@ -12,10 +12,10 @@ FIFO Principle states that the first element added to the Queue will be the firs
 
 
 # Basic Terminologies of Queue
-Front: Position of the entry in a queue ready to be served, that is, the first entry that will be removed from the queue, is called the front of the queue. It is also referred as the head of the queue.
-Rear: Position of the last entry in the queue, that is, the one most recently added, is called the rear of the queue. It is also referred as the tail of the queue.
-Size: Size refers to the current number of elements in the queue.
-Capacity: Capacity refers to the maximum number of elements the queue can hold.
+1. Front: Position of the entry in a queue ready to be served, that is, the first entry that will be removed from the queue, is called the front of the queue. It is also referred as the head of the queue.
+2. Rear: Position of the last entry in the queue, that is, the one most recently added, is called the rear of the queue. It is also referred as the tail of the queue.
+3. Size: Size refers to the current number of elements in the queue.
+4. Capacity: Capacity refers to the maximum number of elements the queue can hold.
 
 # Types of Queue
 1. Simple Queue
