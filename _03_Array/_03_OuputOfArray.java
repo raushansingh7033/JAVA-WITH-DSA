@@ -14,5 +14,9 @@ public class _03_OuputOfArray {
       int elem = arr[idx];
       System.out.println(elem);
     }
+       for (int idx = 0; idx < arr.length; idx++) {
+      int elem = arr[idx];
+      System.out.println(elem);
+    }
   }
 }
