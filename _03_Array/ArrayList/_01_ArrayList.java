@@ -13,7 +13,14 @@ public class _01_ArrayList {
 
         list.add(1, 9); // add element o(n)
 
-        System.err.println(list);
+        ArrayList<Integer> list1=new ArrayList<>();
+        list1.add(12);
+        list1.add(32);
+        list1.add(42);
+        list1.add(23);
+        list1.add(1, 50);
+        System.out.println(list1);
+        System.out.println(list);
         //get operation
         int element = list.get(2);
         System.out.println(element);
