@@ -15,7 +15,7 @@ public class _16_PalindromicSubString {
   public static void main(String[] args) {
     String str = "abbd";
     int count = 0;
-    for (int i = 0; i < str.length() - 1; i++) {
+    for (int i = 0; i < str.length() ; i++) {
       for (int j = i + 1; j < str.length() + 1; j++) {
         if (isPalindrome(str.substring(i, j)) == true) {
           System.out.print(str.substring(i, j) + " ");
